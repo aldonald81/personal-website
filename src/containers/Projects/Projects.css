@@ -1,0 +1,55 @@
+
+#gridItem {
+    margin: 20px;
+    width: 100%;
+    padding: 0;
+    min-width: 350px;
+    min-height: 500px;
+    padding: 10px;
+    border: 5px solid var(--blue);
+    border-radius: 15px;
+    background-color: rgb(252, 245, 245);
+  }
+
+  .skillsIcon {
+    color: var(--blue);
+    font-size: 200%;
+    margin: 0px 10px;
+   
+}
+
+.iconStyle {
+  margin: 10px;
+  color: black;
+}
+
+.projectsSection {
+  padding: 50px 5% ;
+  background-color: var(--grey);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch; /* Ensures grid items have the same height */
+  flex-direction: column;
+}
+
+
+.sectionHeaderProjects {
+  text-align: center;
+  color: var(--vanilla);
+  margin-bottom: 0px;
+}
+
+.sectionSubheader {
+  text-align: center;
+  margin-top: 5px;
+  color: var(--vanilla)
+}
+
+.skillsSubsection {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  align-items: flex-end;
+  padding-bottom: 8px
+}

@@ -1,0 +1,23 @@
+
+
+.experienceSection {
+    padding: 50px 5% ;
+    background-color: var(--grey);
+}
+
+.sectionHeader {
+    text-align: center;
+    color: var(--vanilla)
+  }
+
+.vertical-timeline-element-date {
+    color: white
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 1170px) {
+    .vertical-timeline-element-date {
+        color: black
+    }
+   
+  }

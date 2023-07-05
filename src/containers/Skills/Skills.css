@@ -1,0 +1,27 @@
+
+i {
+    color: var(--blue);
+    font-size: 420%;
+}
+
+.skillsSection {
+    padding: 50px 5% ;
+    background-color: var(--grey);
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--grey);
+}
+
+.skill {
+    display: flex;
+    padding: 0px 40px;
+    text-align: center;
+}
+
+.sectionHeader {
+    text-align: center;
+    color: var(--vanilla)
+  }
